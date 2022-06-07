@@ -1,0 +1,88 @@
+[
+	{
+		"id": "6Y7K2gcurskc3XD91N6bUW",
+		"rootNodeId": "ab6xg9BN51",
+		"nodes": {
+			"ab6xg9BN51": {
+				"type": {
+					"resolvedName": "Button"
+				},
+				"isCanvas": false,
+				"props": {
+					"text": "5",
+					"classNames": [],
+					"iconPosition": "hidden",
+					"style": {
+						"display": "inline"
+					},
+					"events": [
+						{
+							"events": [
+								"onclick"
+							],
+							"id": "pnys7zw2Vz8oQzjyBjecF1",
+							"method": "ds.Document.updatePagePreview",
+							"dataclass": "Document",
+							"params": [
+								{
+									"name": "$doc",
+									"type": "cs.DocumentEntity",
+									"datasource": "document",
+									"id": "uY9n8mG1bL8VrJeWmefr9E"
+								},
+								{
+									"name": "$index",
+									"type": "Integer",
+									"datasource": "",
+									"id": "xbdz84QMEdvbPJs1SNX83m",
+									"isHardCoded": true,
+									"hardCodedValue": "5",
+									"hardCodedType": "number"
+								},
+								{
+									"name": "$background",
+									"type": "Boolean",
+									"datasource": "showBackground",
+									"id": "hjb1KPQaHCA3qzM1sW3uYW"
+								}
+							],
+							"type": "method",
+							"returns": {
+								"name": "$result",
+								"type": "cs.DocumentEntity",
+								"datasource": "document"
+							}
+						}
+					]
+				},
+				"displayName": "Button",
+				"custom": {},
+				"parent": "uk6W2pXKcv",
+				"hidden": false,
+				"nodes": [],
+				"linkedNodes": {
+					"icon": "f0GUV-_QnC"
+				}
+			},
+			"f0GUV-_QnC": {
+				"type": {
+					"resolvedName": "Icon"
+				},
+				"isCanvas": false,
+				"props": {
+					"classNames": [],
+					"icon": "fa-star"
+				},
+				"displayName": "Icon",
+				"custom": {},
+				"parent": "ab6xg9BN51",
+				"hidden": false,
+				"nodes": [],
+				"linkedNodes": {}
+			}
+		},
+		"styles": [],
+		"name": "butupdatepage",
+		"icon": "fa-address-book-o"
+	}
+]

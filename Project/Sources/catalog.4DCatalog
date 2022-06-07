@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="wppreview" uuid="D30BE90D640B6B4ABD417681D9ED7A5D" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Document" uuid="9520C2BE29EBCD418CD65823EBDDBD8B" id="1">
+		<field name="ID" uuid="E8D40CF6EC354341B76401E51A102A5C" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="wpdoc" uuid="9A55B2BC6BE338438C9CC4F1E7A006A4" type="21" blob_switch_size="2147483647" id="2"/>
+		<field name="title" uuid="97CD4DC4AE48E94B970EA745438E26B1" type="10" limiting_length="255" id="3"/>
+		<field name="preview" uuid="4F6374279EF7D5408A0375D804785C2C" type="12" id="4"/>
+		<field name="previewPageIndex" uuid="AC30626E522E8D4BA4B452FA5D2218BA" type="4" id="5"/>
+		<field name="background" uuid="621B79AA1AA3714FA69DB93EF6BA17A4" type="1" id="6"/>
+		<field name="numPages" uuid="AA6E6017DDB879438CB3715AE3CA6257" type="4" id="7"/>
+		<field name="lastPreviewPageIndex" uuid="70F3E9B3F4CFA747838BB2673503EB94" type="4" id="8"/>
+		<primary_key field_name="ID" field_uuid="E8D40CF6EC354341B76401E51A102A5C"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="14">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="110" top="17" width="441" height="337.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="0F06B57E8ED1D749A6871759D6A40C1F" type="7">
+		<field_ref uuid="E8D40CF6EC354341B76401E51A102A5C" name="ID">
+			<table_ref uuid="9520C2BE29EBCD418CD65823EBDDBD8B" name="Document"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
